@@ -52,6 +52,18 @@
 			<artifactId>spring-web</artifactId>
 			<version>RELEASE</version>
 		</dependency>
+
+		<!-- 断路器 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.netflix.hystrix</groupId>
+			<artifactId>hystrix-core</artifactId>
+			<version>1.5.12</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
