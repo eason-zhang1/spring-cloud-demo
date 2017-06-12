@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost1:8768/eureka/,http://localhost2:8769/eureka/
+
+
+server:
+  port: 8762
+spring:
+  application:
+    name: demo2-eureka-client
